@@ -19,8 +19,8 @@ Other contour detection methods can be found here
 https://www2.eecs.berkeley.edu/Research/Projects/CS/vision/grouping/resources.html
 
 (C) Rémi Giraud, 2017
-rgiraud@labri.fr, www.labri.fr/~rgiraud
-University of Bordeaux, LaBRI, IMB
+rgiraud@u-bordeaux.fr, rgiraud.vvv.enseirb-matmeca.fr
+Bordeaux INP - IMS
 
 
 %%%%%%% MATLAB - C++/MEX %%%%%%%%%
