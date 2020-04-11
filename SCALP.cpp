@@ -18,7 +18,7 @@ int main(int argc, char* argv[])
     
     //Inputs
     string img_name = string(cimg_option("-i","","Input image file"));
-    int SuperpixelNum = cimg_option("-k",400,"Number of desired superpixels");
+    int SuperpixelNum = cimg_option("-k",450,"Number of desired superpixels");
     float ratio = cimg_option("-m", 0.075, "Compactness value");
     string contour_input = string(cimg_option("-c","","Input contour image file"));
     string gt_input = string(cimg_option("-gt","","Input ground truth image file"));
