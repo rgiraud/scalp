@@ -1,5 +1,7 @@
 ## SCALP: Superpixels with Contour Adherence using Linear Path
 
+### Overview
+
 Implementation of paper:   [PDF](https://hal.archives-ouvertes.fr/hal-01510063/document)
 ```
 @article{giraud2018scalp,
@@ -12,9 +14,7 @@ Implementation of paper:   [PDF](https://hal.archives-ouvertes.fr/hal-01510063/d
 }
 ```
 
-### Overview
-
-- Source code for SCALP superpixels: 
+- SCALP superpixels generated using color and contour features on the linear path between the pixel and the superpixel barycenter: 
 
 ![image](./Figures/scalp_method.png)
 
