@@ -1,4 +1,4 @@
-# SCALP: Superpixels with Contour Adherence using Linear Path
+## SCALP: Superpixels with Contour Adherence using Linear Path
 
 Implementation of paper:   [PDF]()
 ```
