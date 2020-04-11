@@ -1,26 +1,3 @@
-% This code is free to use for any non-commercial purposes.
-% It contains an implementation of the SCALP superpixel method proposed in:
-% [1] - Rémi Giraud, Vinh-Thong Ta and Nicolas Papadakis
-%       Robust Superpixels using Color and Contour Features along Linear Path
-%       Computer Vision and Image Understanding (CVIU), 2018
-%
-% Note that the core of the implementation is based on the provided code associated to the following paper:
-% [2] - Zhengqin Li, Jiansheng Chen
-%       Superpixel Segmentation using Linear Spectral Clustering
-%       International Conference on Computer Vision and Pattern Recognition (CVPR), 2015
-%
-% If you use this code, please cite both [1] and [2].
-%
-% A contour prior map can be added to our method. 
-% The contour detection used method in [1] is available with guidelines at 
-% https://github.com/pdollar/edges
-% Other contour detection methods can be found here
-% https://www2.eecs.berkeley.edu/Research/Projects/CS/vision/grouping/resources.html
-%
-% (C) Rémi Giraud, 2017
-% rgiraud@labri.fr, www.labri.fr/~rgiraud
-% University of Bordeaux, LaBRI, IMB
-
 clear all
 close all
 clc
