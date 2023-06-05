@@ -1,6 +1,4 @@
-clear all
-close all
-clc
+clear; close all; clc
 
 %Compilation
 mex -O CFLAGS="\$CFLAGS -Wall -Wextra -W -std=c99" ./SCALP_mex.cpp -outdir ./
@@ -44,7 +42,7 @@ imagesc(double(I)/255.*repmat(~B,[1 1 3]));
 %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%To use display and evaluation superpixel functions
-%%download the toolbox at remigiraud.fr/research/#superpixels
+%%download the toolbox at https://github.com/rgiraud/sp_toolbox
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 gt = imread('data/gt_test_img.png');
