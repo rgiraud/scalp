@@ -35,7 +35,8 @@ void preEnforceConnectivity(unsigned short int* label, int nRows,int nCols)
                     if(x>=0&&x<=nRows-1&&y>=0&&y<=nCols-1)
                     {
                         if(mask[x][y]==1&&label[x*nCols+y]!=L)
-                            adj=label[x*nCols+y];break;
+                            adj=label[x*nCols+y];
+                        break;
                     }
                 }
                 mask[i][j]=1;
@@ -53,7 +54,7 @@ void preEnforceConnectivity(unsigned short int* label, int nRows,int nCols)
                     for(int m=minX;m<=maxX;m++)
                         for(int n=minY;n<=maxY;n++)
                         {
-                            if(mask[m][n]==0&&label[m*nCols+n]==L)
+                            if((mask[m][n]==0)&&(label[m*nCols+n]==L))
                             {
                                 mask[m][n]=1;
                                 xLoc.insert(xLoc.end(),m);
